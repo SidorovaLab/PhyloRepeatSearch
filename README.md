@@ -6,7 +6,7 @@ PhyloRepeatSearch allows the use to run a python script to run a phylogenetic an
 
 2 - gene_ref_accepted_list : Give a list of human genes that also contain the amino acid repeat of interest. For example, ['ATAD2','MYT1','NCL'], will return results for protein othologs across species for those genes.
 
-3 - size : This is the minimum size of the repeat across all species. The default is set to 3, so any occurances of DDD, EEE, DDE, DED, EED, EDE across protein orthologs across species will be returned
+3 - size : This is the minimum size of the repeat across all species. The default is set to 3, so in the case of reps_AAs of ['D','E'] any occurances of DDD, EEE, DDE, DED, EED, EDE across protein orthologs across species will be returned
 
 4 - gap_allowance : gaps that can interrupt repeated amino acids, default is 0.
 
